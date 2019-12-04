@@ -43,6 +43,20 @@ netstat -tulpn | grep <pid> # list opened port for process identified by <pid>
 ```
 
 # Run from within eclipse
+Install apache tomcat adapter
+![](imgs/20191204-024643.png)
+
+Select right adapter
+![](imgs/20191204-024737.png)
+
+Select right tomcat installation folder
+![](imgs/20191204-024856.png)
+
+Right click on the project:
+![](imgs/20191204-025140.png)
+
+Create a new server if needed:
+![](imgs/20191204-025240.png)
 
 # Use
 Please visit: `http://localhost:8080/jersey-sample`
