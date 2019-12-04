@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Form to create a new resource</title>
+ </head>
+<body>
+    <form action="rest/todos" method="POST">
+    <label for="id">ID</label>
+    <input name="id" />
+    <br/>
+    <label for="summary">Summary</label>
+    <input name="summary" />
+    <br/>
+    Description:
+    <TEXTAREA NAME="description" COLS=40 ROWS=6></TEXTAREA>
+    <br/>
+    <input type="submit" value="Submit" />
+    </form>
+    
+    Show todos list: 
+    <ul>
+    <li><a href="rest/todos/xml">rest/todos.xml</a>
+    <li><a href="rest/todos/json">rest/todos.json</a>
+    <li><a href="rest/todos/count">rest/todos/count</a>
+    </ul>
+</body>
+</html>
